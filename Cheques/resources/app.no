@@ -1,0 +1,33 @@
+Gracias por interesarse en este pequeño proyecto.
+
+A pesar de ser una simple aplicación, considero que puede ser utilizada para educación por hacer uso de varios framework.
+
+Cualquier sugerencia será bienvenida de mi parte.
+
+
+Obtenga mas información en:
+
+Aplicación Principal
+====================
+https://github.com/pablo3000/cheques
+https://github.com/pablo3000/chequescommon
+
+Addons:
+=======
+https://github.com/pablo3000/calculator
+https://github.com/pablo3000/asterix
+https://github.com/pablo3000/2Upper
+
+-------------------------------------
+
+
+Parámetros opcionales de la aplicación
+=======================================
+*   -info			Muestra por consola la información de la aplicación.
+*   -noaddons		Inicia la aplicación sin cargar los addons.
+*   -res_%archivo%	Carga otro archivo de recurso con los textos de la aplicación.
+					%archivo% = archivo propeties con los textos.
+					ejemplo: "-res_portugues.propeties"
+
+
+Saludos y disfruten de este maravillo lenguaje de programación.

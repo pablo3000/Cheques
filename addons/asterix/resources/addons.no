@@ -1,0 +1,19 @@
+Como instalar el addons.
+
+*  Copiar el archivo asterix.add” en el directorio “Addons” de la aplicación “Cheques”
+*  Iniciar la aplicación "cheques"
+
+
+Obtenga mas información en:
+
+Aplicación Principal
+====================
+https://github.com/pablo3000/cheques
+https://github.com/pablo3000/chequescommon
+
+Addons:
+=======
+https://github.com/pablo3000/calculator
+https://github.com/pablo3000/asterix
+https://github.com/pablo3000/2Upper
+

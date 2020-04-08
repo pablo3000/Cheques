@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.10.0.final using JasperReports Library version 6.10.0-unknown  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="simple_jasper_report" printOrder="Horizontal" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="786" leftMargin="28" rightMargin="28" topMargin="28" bottomMargin="28" uuid="a726931f-0122-4081-bf06-3938a2038efe">
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="720"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="mm"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="mm"/>
+	<import value="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<parameter name="importe" class="java.lang.Double"/>
+	<parameter name="diafecha1" class="java.lang.Integer"/>
+	<parameter name="diafecha2" class="java.lang.Integer"/>
+	<parameter name="mesfecha1" class="java.lang.String"/>
+	<parameter name="mesfecha2" class="java.lang.String"/>
+	<parameter name="aniofecha1" class="java.lang.Integer"/>
+	<parameter name="aniofecha2" class="java.lang.Integer"/>
+	<parameter name="pagesea" class="java.lang.String"/>
+	<parameter name="importetexto" class="java.lang.String"/>
+	<detail>
+		<band height="322" splitType="Stretch">
+			<elementGroup/>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="355" y="174" width="90" height="20" uuid="991166cc-a14a-41a8-852f-c8f7de84a13e"/>
+				<textElement markup="html">
+					<font fontName="Monospaced" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["***" + new DecimalFormat("###,###,###,###,##0.00").format($P{importe})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="191" width="30" height="16" uuid="77113688-1cbb-425e-a470-0acb9a760802"/>
+				<textElement>
+					<font fontName="Monospaced" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{diafecha1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="126" y="192" width="62" height="16" uuid="4a7ea631-b8dc-4eb1-b79b-ae888aed47c5"/>
+				<textElement>
+					<font fontName="Monospaced" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{mesfecha1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="187" y="192" width="100" height="16" uuid="8b32f72b-f1f5-4a6b-b44b-97b1003cd4a5"/>
+				<textElement>
+					<font fontName="Monospaced" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{aniofecha1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="78" y="209" width="30" height="16" uuid="c1a3bbc8-7f90-41d8-b586-65024c269b0c"/>
+				<textElement>
+					<font fontName="Monospaced" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{diafecha2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="113" y="209" width="70" height="16" uuid="0accfbb6-cced-4391-96ae-510b55e992f4">
+					<property name="com.jaspersoft.studio.unit.height" value="mm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Monospaced" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{mesfecha2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="294" y="209" width="100" height="16" uuid="ec2a1a47-8486-406a-abca-27809a79f332">
+					<property name="com.jaspersoft.studio.unit.height" value="mm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Monospaced" size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{aniofecha2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="75" y="223" width="336" height="30" uuid="32fbccfb-0019-4d0a-9d3c-c7c529c5c553"/>
+				<textElement>
+					<font fontName="Monospaced" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{pagesea}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="76" y="239" width="334" height="42" uuid="9c748d15-5932-467b-b047-1adc4124e451"/>
+				<textElement>
+					<font fontName="Monospaced" size="10"/>
+					<paragraph lineSpacing="Double" firstLineIndent="56"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{importetexto}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

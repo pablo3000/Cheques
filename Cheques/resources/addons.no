@@ -1,0 +1,16 @@
+Es ente directorio deben colocarse los addons.
+
+
+Obtenga mas información en:
+
+Aplicación Principal
+====================
+https://github.com/pablo3000/cheques
+https://github.com/pablo3000/chequescommon
+
+Addons:
+=======
+https://github.com/pablo3000/calculator
+https://github.com/pablo3000/asterix
+https://github.com/pablo3000/2Upper
+
